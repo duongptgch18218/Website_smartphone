@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: montserrat;
+    
+     padding-bottom: 6rem;
+      min-height: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+nav{
+    
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+lable.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px;
+}
+.header nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+
+.body{
+    margin-top: 10px;
+    width: 80%;
+    margin: 20px auto;
+   position: relative;
+    height: 100%;
+    
+    padding-bottom:60px;
+    
+    
+    
+    
+    
+}
+.bar_left{
+    position: relative;
+    
+    
+/*   background-color: coral;*/
+    width: 20%;
+    float: left;
+    margin-right: 40px;
+    padding-left: 0px;
+}
+.bar_left_active{
+    position: fixed;
+    
+    top: 70px;
+
+    width: 17%;
+    float: left;
+    margin-right: 40px;
+    padding-left: 0px;
+}
+.bar_left-admin{
+    position: relative;
+    top: 10px;
+/*   background-color: coral; */
+    
+    float: left;
+    margin-right: 40px;
+}
+
+.title{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.list ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #adc6c6;
+    border-radius: 8px;
+  
+    
+}
+.list ul li a{
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+
+.list a:link{
+    color: #050527;
+}
+.list a:visited{
+    color: #050527;
+}
+
+.content {
+    float: left;
+/*    background-color: aqua;*/
+    width: 80%;
+    position: absolute;
+    right: 0px;
+    padding-left: 40px;
+    
+    
+}
+.content-admin{
+  float: left;
+/*    background-color: aqua;*/
+    margin-top: 30px;
+   
+ 
+    
+    right: 0px;
+    
+    
+}
+
+.rowa {
+    position: relative;
+   
+    width: 95.5%;
+    margin-top: 20px;
+}
+
+.products {
+    position: relative;
+    float: left;
+/*    background-color: brown;*/
+    width: 31%;
+    padding: 0;
+    margin-right: 20px;
+    border: 1px solid #adc6c6;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: 66vh;
+
+    
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    margin: 5 auto;
+    height: 35vh;
+    border-radius: 5px;
+}
+
+.pro_body {
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 25px;
+    height: 23vh;
+}
+
+.pro_title {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.text {
+    position: relative;
+    margin-top: 10px;
+    text-align: justify;
+    padding-bottom: 30px;
+     word-break: break-all;
+}
+
+.pro_footer {
+    position: relative;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-top: 1px solid #adc6c6;
+    
+    
+}
+
+
+.pro_body a:link{
+    color: #1010c4;
+}
+.pro_body a:visited{
+    color: #1010c4;
+}
+
+.pro_body a:hover{
+    color: red;
+}
+
+
+
+
+
+.title-product {
+  text-align: center;
+  font-size: 50px;
+  color: #2c2c2c;
+  border-bottom: 1px solid red;
+  letter-spacing: .05em;
+  text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  height: 100px;
+  padding-top: 20px;
+margin-bottom: 30px;
+
+}
+.title-product-admin {
+  text-align: center;
+  font-size: 50px;
+  color: #2c2c2c;
+  letter-spacing: .05em;
+  text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  height: 100px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+    
+    
+}
+
+
+
+.detail-img {
+    
+    width :600px;
+    
+}
+
+.detail-img1 {
+    border-left: 1px solid #69bf1f;
+    border-right: 1px solid aqua;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.detail-content {
+    padding-top: 50px;
+    width: 600px;
+    
+}
+
+.detail-content1 {
+    font-family: monospace;
+    font-size: 16px;
+   
+}
+
+.table {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+
+.custom-2{
+    background-color: red;
+}
+
+
+.abc table{
+     height:100px;
+    table-layout:fixed;
+
+}
+
+.td {
+    text-overflow:ellipsis;
+overflow:hidden;
+white-space:nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-content {
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+    
+}
+
+.container123 {
+    min-height:100%;
+   position:relative;
+    height: 100%;
+}
+
+
+
+
